@@ -1,7 +1,7 @@
 Working with WebView
 ==============
 This repo demonstrates how to use a webview with a custom renderer in Xamarin Forms. It is based off of Craig Dunn's code. You can find the link below. 
-When the device rotates, the frame properly resizes. Is this only an iOS solution.
+The frame properly resizes when the device rotates. This is only a solution for an iOS platform.
 
 
 
