@@ -7,7 +7,11 @@ namespace WorkingWithWebview
 	{
 		public WebPage (String url)
 		{
-            Content = new RotatingWebView { Source = url };
+            var browser = new WebView();
+
+            browser.Source = "http://www.casamba.net";
+
+            Content = browser;
 		}
 	}
 }

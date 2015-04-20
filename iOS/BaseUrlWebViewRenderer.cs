@@ -8,7 +8,7 @@ using WorkingWithWebview.iOS;
 using Rectangle = Xamarin.Forms.Rectangle;
 using System.Drawing;
 
-[assembly: ExportRenderer(typeof(RotatingWebView), typeof(BaseUrlWebViewRenderer))]
+[assembly: ExportRenderer(typeof(WebView), typeof(BaseUrlWebViewRenderer))]
 
 namespace WorkingWithWebview.iOS
 {
