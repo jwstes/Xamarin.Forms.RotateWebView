@@ -7,11 +7,7 @@ namespace WorkingWithWebview
 	{
 		public WebPage (String url)
 		{
-            var browser = new WebView();
-
-            browser.Source = "http://www.casamba.net";
-
-            Content = browser;
+            Content = new WebView { Source = url };
 		}
 	}
 }
