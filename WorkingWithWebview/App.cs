@@ -7,10 +7,8 @@ namespace WorkingWithWebview
 	{
 		public App ()
 		{
-			var tabs = new TabbedPage ();
-            tabs.Children.Add(new WebPage("http://www.casamba.net") { Title = "Casamaba" });
-
-			MainPage = tabs;
+            var mainNav = new NavigationPage(new MainPage());
+            MainPage = mainNav;
 		}
 	}
 }

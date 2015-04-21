@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WorkingWithWebview.AboutPage"
+             Title="About Casamba">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Name="&lt; Back" Order="Primary" Priority="0" />
+  </ContentPage.ToolbarItems>
+
+
+  <StackLayout Orientation="Vertical">
+    <WebView Source="http://www.casamba.net/" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+  </StackLayout>
+
+</ContentPage>
