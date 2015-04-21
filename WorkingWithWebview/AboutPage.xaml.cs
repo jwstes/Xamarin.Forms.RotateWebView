@@ -16,6 +16,7 @@ namespace WorkingWithWebview
         public AboutPage()
         {
 
+            // Example of adding an additional back button. This button is placed on the right of the title. 
             var backButton = new ToolbarItem("Back", "", NavigateBack, 0, 0);
             this.ToolbarItems.Add(backButton);
 
